@@ -1,5 +1,5 @@
 # Move-iCloud-Archive-Folders
-A simple script to copy files back to their original locations after iCloud Desktop and Documents sync has been turned off
+A simple script to copy files back to their original locations after iCloud Desktop and Documents sync has been turned off.
 
 As with all scripts, please review before deploying to make sure you understand what is being done here. This script will move files when it is run.
 
