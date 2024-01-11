@@ -8,4 +8,4 @@ Cloud Drive is deployed to existing users. If a user has iCloud Desktop and
 Documents sync turned on, the files in ~/Desktop and ~/Documents are moved to
 ~/iCloud Drive Archive when the profile is installed. This gives the illustion
 to the user that the files in those locations have been deleted. This script
-copies the files from the Archive fodler back to their original locations.
+copies the files from the Archive folder back to their original locations.
