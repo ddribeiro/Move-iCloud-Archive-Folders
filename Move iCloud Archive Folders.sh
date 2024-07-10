@@ -6,9 +6,9 @@
 # This script is designed to be run after the configuration profile to disable
 # iCloud Drive is deployed to existing users. If a user has iCloud Desktop and
 # Documents sync turned on, the files in ~/Desktop and ~/Documents are moved to
-# ~/iCloud Drive Archive when the profile is installed. This gives the illustion
+# ~/iCloud Drive Archive when the profile is installed. This gives the illusion
 # to the user that the files in those locations have been deleted. This script
-# copies the files from the Archive fodler back to their original locations.
+# copies the files from the Archive folder back to their original locations.
 
 
 # Get the currently logged in user and assign it to a variable, so that it can be referenced later when 
@@ -33,7 +33,7 @@ else
 	echo "$iCloudFolders" >> /tmp/iCloudArchive.txt
 
 # This is the key logic to the script. It reads the /tmp/iCloudArchive.txt and loops through each line and checks the folders to see if
-# they have any files in them. If the files exist and are NOT empty, they will be copied back to either ~/Documents or ~/Desktop, basd
+# they have any files in them. If the files exist and are NOT empty, they will be copied back to either ~/Documents or ~/Desktop, based
 # on their original file location.
 	while IFS= read -r line
 	do
